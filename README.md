@@ -1,3 +1,5 @@
-![Andreis’ GitHub stats](https://github-readme-stats.vercel.app/api?username=AndreisPurim&theme=synthwave&show_icons=true&count_private=true "Andreis’ GutHub Stats")
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AndreisPurim&theme=synthwave "Andreis’ Top Languages Card")
+<p align="center">
+  <a href="https://github.com/cedced19" class="rich-diff-level-one">
+    <img src="https://github-readme-stats.vercel.app/api?username=AndreisPurim&count_private=true&show_icons=true" alt="Andreis's Stats" >
+  </a>
+</p>
