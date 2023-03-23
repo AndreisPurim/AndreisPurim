@@ -3,9 +3,7 @@
 </p>
 
 # >> andreis.hello("Welcome to my Github!)
-Hello, dear traveller of the web! My name is [Andreis Purim](andreis.lv) and I usually leave my engineering/computer sci. projects here. Here's a small list of some interesting ones. You can find the rest on the organizations or my repositories:
-
-- **[IAnotador](https://github.com/Ze-Carioca-Team/Anotador)**: A NLP-directed tool for annotating entities and intentions in a very user-friendly way. This is only a small, modular part of wider research in the University of Campinas and CI&T. Currently, we are working on deploying BERT with active for faster annotation.
+Hello, dear traveller of the web! My name is [Andreis Purim](andreis.lv) and I usually leave my engineering/computer sci. projects here. Here's a small list of some interesting ones. 
 
 **Big note:** I'm still a begginer, I make tons of mistakes or stupid decisions. If you see anything that can make me a better programmer (or even a better human being), please tell!
 
