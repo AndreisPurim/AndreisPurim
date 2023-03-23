@@ -6,7 +6,6 @@
 Hello, dear traveller of the web! My name is [Andreis Purim](andreis.lv) and I usually leave my engineering/computer sci. projects here. Here's a small list of some interesting ones. You can find the rest on the organizations or my repositories:
 
 - **[IAnotador](https://github.com/Ze-Carioca-Team/Anotador)**: A NLP-directed tool for annotating entities and intentions in a very user-friendly way. This is only a small, modular part of wider research in the University of Campinas and CI&T. Currently, we are working on deploying BERT with active for faster annotation.
-- **[ISARVIT](https://github.com/ISARVIT)**: A medical report generator, where doctors can create pre-formatted reports with dynamic SVG generation and variable treatment from forms. I was the "lead-developer" during this 18 months project for [CRIStAL](https://www.cristal.univ-lille.fr/spip.php?page=rubrique&id_rubrique=1) and [CERIM](https://cerim.univ-lille.fr/) labs of the University of Lille. It is currently being deploy in CHU.
 
 **Big note:** I'm still a begginer, I make tons of mistakes or stupid decisions. If you see anything that can make me a better programmer (or even a better human being), please tell!
 
