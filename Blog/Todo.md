@@ -1,0 +1,108 @@
+- [ ] Security Enhanced LInux
+- [ ] Red hat linux
+- [ ] Astra Linux
+- [ ] Markov Chain
+- [ ] Boltzmann machines
+- [ ] Steganography
+- [ ] Fuzz testing
+- [ ] CP-ABE encryption
+- [ ] MHT mashtree
+- [ ] Testes a/b
+- [ ] Federated learning
+- [ ] Model inversion
+- [ ] Attacks that exploit confidence information and basic countermeasures
+- [ ] Differential privacy
+- [ ] Siamese architecture
+- [ ] Edge intelligence model sharing
+- [ ] CER FRR FAR curve
+- [ ] C2 Security level
+- [ ] mRMR minimum redundancy relevance
+- [ ] Maximum mean discrepancy
+- [ ] Equal error rate = cross entropy
+- [ ] Keystroke dynamics as a biometric authentication
+- [ ] KPI performance
+- [ ] Digraph
+- [ ] Botnet
+- [ ] CDN
+- [ ] Sboms
+- [ ] Quantum key distribution
+- [ ] Man in the middle
+- [ ] A survey of machine ... protection in the internet of things
+- [ ] K-anonimity, t-diversity, y-closeness
+- [ ] Perception, network, middleware, application layer
+- [ ] Intel security
+- [ ] 45% data leakage is responsability of the employees and 51% is accidental
+- [ ] Indirect attacks: membership inference, model inversion, model stealing, property inference, reidentification, impersonification
+- [ ] GRU networks
+- [ ] Monte carlo iteration
+- [ ] Poisson filter
+- [ ] Kalman filter
+- [ ] Mean decrease impurity
+- [ ] Dynamics time warping
+- [ ] FUzzy logic classifiers
+- [ ] What is k-fold?
+- [ ] Are digraphs good for free-text keystroke dynamics?: given two pdfs represented by histograms pattern recognition theory says that if 2 pdfs represent two classes, the less overlap, the more discriminative the cure
+- [ ] High-resolution image reconstruction from human brain activity
+- [ ] Model inversion attacks and basic countermeasures
+- [ ] awesome-ml-privacy-attacks
+- [ ] awersome-mil-inversion-attack
+- [ ] Lilian weng google scholar github
+- [ ] Predicting sucessful memes using network and community structure
+- [ ] Timing Attack
+- [ ] Side channel attack
+- [ ] CVE
+- [ ] Meltdown & Spectre
+- [ ] MITRE
+- [ ] Cert/CC
+- [ ] ENISA
+- [ ] Federated learning byzantine attacks in edges
+- [ ] Homomorphic criptography
+- [ ] R squared
+- [ ] F1 Score
+- [ ] Perceptron
+- [ ] Biais and variance
+- [ ] Gini index
+- [ ] Sanity check
+- [ ] Memory ram or gpu
+- [ ] How yolo works
+- [ ] How bert works
+- [ ] How vvg19 works
+- [ ] How ccn works
+- [ ] How rrn works
+- [ ] lstm
+- [ ] skipgram or cbow
+- [ ] unet
+- [ ] certificado ciencia de dados imecc
+- [ ] what is the difference between binary and categorical crossentropy
+- [ ] network gpt and mbr
+- [ ] linux packages, distros
+- [ ] wan and lan
+- [ ] nci, port, interface
+- [ ] fault tolerance
+- [ ] scalability
+- [ ] ipv4, ipv6, subnet mask, default gateway
+- [ ] tcp, https, ssl, ssh, tls, dns
+- [ ] bgp and ospf
+- [ ] telnet and ssh
+- [ ] mac
+- [ ] netcloud
+- [ ] kubernetes
+- [ ] maven
+- [ ] nvi
+- [ ] worms, trojans
+- [ ] spyware and adware
+- [ ] zero-day attacks
+- [ ] dos
+- [ ] data interception and theft
+- [ ] thread
+- [ ] multithread
+- [ ] containers and virtual machines
+- [ ] daemon
+- [ ] grep, glob, exos
+- [ ] vi, vim
+- [ ] redis (database)
+- [ ] tar and gz
+- [ ] what is curl
+- [ ] [https://towardsdatascience.com/the-creative-side-of-vision-transformers-e3efa7c4b859](https://towardsdatascience.com/the-creative-side-of-vision-transformers-e3efa7c4b859)
+- [ ] Paint Transformer
+
