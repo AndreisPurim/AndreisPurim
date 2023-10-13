@@ -1,0 +1,432 @@
+{
+    "categories": [
+        {"icon":"🔨", "label": "Activity"},
+        {"icon":"🌲", "label": "Experience"}
+    ],
+    "list": [
+        {
+            "objective": "Be Happy",
+            "category": "🔨",
+            "added": "04/1999"
+        },
+        {
+            "objective": "Serve the Latvian Army",
+            "category": "🔨",
+            "added": "11/2018",
+            "done": "07/2022",
+            "completion": "Volunteered for the Latvian National Reserve"
+        },
+        {
+            "objective": "Work with the Scientific Police",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Travel in a trailer for a week",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "(Nice) Waterfall bath",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Skydive",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "See the Aurora Borealis",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Travel in a Hot Air Baloon",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Snorkel in a beautiful place",
+            "category": "🌲",
+            "added": "11/2018",
+            "done": "12/2022",
+            "completion": "Snorkeled in Bonito Region in rivers full of fish, water snakes and a stingray."
+        },
+        {
+            "objective": "Relearn how to ride horses and be a cowboy",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Go in a Safari",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Visit a Favela in Rio (again)",
+            "category": "🌲",
+            "added": "04/2023"
+        },
+        {
+            "objective": "Learn Falconing",
+            "category": "🌲",
+            "added": "04/2023"
+        },
+        {
+            "objective": "Hunt (but must be ethical)",
+            "category": "🌲",
+            "added": "04/2023"
+        },
+        {
+            "objective": "Helicoper Ride (bonus points: fortunate son)",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Go to a Dziesmu Svetki",
+            "category": "🌲",
+            "added": "11/2018",
+            "done": "07/2023",
+            "completion": "Was part of the Latvian Brazilian Choir"
+        },
+        {
+            "objective": "Sing or Dance at a Dziesmu Svetki",
+            "category": "🔨",
+            "added": "11/2018",
+            "done": "12/2023",
+            "completion": "Was part of the Latvian Brazilian Choir"
+        },
+        {
+            "objective": "See the Olimpics",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "See the World Cup",
+            "category": "🌲",
+            "added": "08/2022"
+        },
+        {
+            "objective": "Float in the dead sea",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Scale a mountain (must have a rocky, snow top)",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Learn Rock Climbing",
+            "category": "🌲",
+            "added": "05/2020"
+        },
+        {
+            "objective": "Get Married",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Have kids",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Write and publish a book",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Get Baptized in the Jordan River",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Study a Tribe",
+            "category": "🔨",
+            "added": "11/2018",
+            "done": "02/2019",
+            "completion": "Half completed. Started studying the Ayoreos of Rincón del Tigre. Must come back."
+        },
+        {
+            "objective": "Hitch a ride with the Brazilian Airforce",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "See the Milky Way",
+            "category": "🌲",
+            "added": "11/2018",
+            "done": "08/2021",
+            "completion": "Both in Atacama (partly) and in 2x2's camp in Kurzeme."
+        },
+        {
+            "objective": "Swim nude in an empty beach",
+            "category": "🌲",
+            "added": "11/2018",
+            "done": "07/2019",
+            "completion": "Not a beach but in a Lake in Latgales' 2x2. It is part of a Latvian-tradition post-sauna."
+        },
+        {
+            "objective": "Go to a War Zone",
+            "category": "🌲",
+            "added": "11/2018",
+            "done": "07/2022",
+            "completion": "Ukraine."
+        },
+        {
+            "objective": "Volunteer in something life-changing",
+            "category": "🔨",
+            "added": "11/2018",
+            "done": "07/2022",
+            "completion": "If you don't consider volunteering at ABCL enough, then volunteering to take donations to Ukraine."
+        },
+        {
+            "objective": "Be vegetarian for a month",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Have an yearly fasting period",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Tech-free for a month",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Compose a song",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Make a documentary",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Develop a technology (maybe a patent or a lasting software)",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Learn to surf",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Learn and be good at fighting",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Be part of the São Silvestre",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Learn to Dance",
+            "category": "🔨",
+            "added": "11/2018",
+            "done": "09/2019",
+            "completion": "Started learning in 2x2, have never stopped ever since."
+        },
+        {
+            "objective": "Be a professor",
+            "category": "🔨",
+            "added": "11/2018",
+            "done": "04/2019",
+            "completion": "Half-completed: became a assistant professor at UNICAMP giving lectures/workshops."
+        },
+        {
+            "objective": "Be Santa Claus in a hospital",
+            "category": "🔨",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Buy drinks to everyone in a bar",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Call a Radio and wish something for someone",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Make a public serenade",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Be part of a flashmob",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Speak at a TEDx",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "(Help) break a Guiness world record",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "See a rocket launch",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Sail (at least a little bit)",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Bungee Jump",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Fly in a fighter jet (may have gone too far on this one)",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Bike roadtrip (min. 4 days)",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Pick mushrooms in Latvia",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "See a penguin in the south pole",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Skii",
+            "category": "🌲",
+            "added": "11/2018"
+        },
+        {
+            "objective": "Do an entire Inktober",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Donate my hair & be bald",
+            "category": "🌲",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Record a DVD with my Band",
+            "category": "🌲",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Learn to play Kokle enough to play wonderwall",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Learn Muay Thai, Boxing or Krav Maga and do practice sparring with someone",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Learn to sing Bizet's Toreador",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Make my own jewelry workshop and make another Namejs",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Learn to flatpick Sadie and Cuckoo on Guitar",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Make my parents proud of me",
+            "category": "🌲",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Make the drone I had planned to do with my Dad",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "NICE",
+            "category": "🌲",
+            "added": "4/20",            
+            "done": "4/20",
+            "completion": "NICE"
+        },
+        {
+            "objective": "Publish a fiction book",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Publish a non-fiction book",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Publish a scientific article in a journal",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Have a patent on my name",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Get my PhD",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Exercise and get buff enough to have the start of a six-pack (all natty)",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Learn to Drift",
+            "category": "🌲",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Take part in a Rally",
+            "category": "🌲",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Run the São Silvestre in a Costume",
+            "category": "🌲",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Learn to drive a motorcycle",
+            "category": "🔨",
+            "added": "10/2023"
+        },
+        {
+            "objective": "Be part of a Motorclub (or revive the Latvian one)",
+            "category": "🔨",
+            "added": "10/2023"
+        }
+    ]
+}
