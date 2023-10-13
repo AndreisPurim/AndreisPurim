@@ -1,4 +1,4 @@
-baseURL = "library.andreis.lv"
+baseURL = "https://library.andreis.lv/"
 title   = "Andreis' Library"
 languageCode = "en-us"
 publishDir = "docs"

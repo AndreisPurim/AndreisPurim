@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Andreis&#39; Library</title>
-        <link>library.andreis.lv/</link>
+        <link>https://library.andreis.lv/</link>
         <description>Recent content on Andreis&#39; Library</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate>
-        <atom:link href="library.andreis.lv/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://library.andreis.lv/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Reassessing Russian Cyberwarfare and Information Warfare (2007-2022)</title>
-            <link>library.andreis.lv/posts/2022/04/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</link>
+            <link>https://library.andreis.lv/posts/2022/04/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</link>
             <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
             
-            <guid>library.andreis.lv/posts/2022/04/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</guid>
+            <guid>https://library.andreis.lv/posts/2022/04/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</guid>
             <description>Andreis Gustavo Malta Purim¹, Bohdanna Duma²
 ¹ Institute of Computing, State University of Campinas in Campinas, São Paulo, Brazil. a213095@dac.unicamp.br
 ² Institute of Humanities and Social Sciences, Lviv Polytechnic National University, Lviv, Ukraine. bohdanna.duma.mv.2019@lpnu.ua
@@ -115,10 +115,10 @@ Abstract. Different from western military doctrine, the Russian concept of cyber
         
         <item>
             <title>Who shall own my data? Data Autonomy</title>
-            <link>library.andreis.lv/posts/2021/04/who-shall-own-my-data-data-autonomy/</link>
+            <link>https://library.andreis.lv/posts/2021/04/who-shall-own-my-data-data-autonomy/</link>
             <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
             
-            <guid>library.andreis.lv/posts/2021/04/who-shall-own-my-data-data-autonomy/</guid>
+            <guid>https://library.andreis.lv/posts/2021/04/who-shall-own-my-data-data-autonomy/</guid>
             <description>Original
 The German-Baltic Academic Foundation promotes exchange and cross-cultural understanding between young adults from Germany, the Baltic States and Russia on the basis of democracy and human rights. For this purpose, we award scholarships, organize seminars and congresses, arrange internships and facilitate networking of participants and scholarship recipients through alumni work. In the context of the shared history, the Foundation aims to continuously develop towards becoming a German-Baltic Youth Office (Deutsch-Baltisches Zukunftsforum /„DBJW“).</description>
             <content type="html"><![CDATA[<p><a href="https://www.dbjw.deutsch-balten.de/post/the-policy-papers-of-our-youth-ambassadors-europe-shall-hear-them">Original</a></p>
