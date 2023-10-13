@@ -1,6 +1,7 @@
 baseURL = "library.andreis.lv"
 title   = "Andreis' Library"
 languageCode = "en-us"
+publishDir = "docs"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"

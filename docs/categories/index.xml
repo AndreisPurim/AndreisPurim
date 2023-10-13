@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Andreis&#39; Library</title>
+        <link>library.andreis.lv/categories/</link>
+        <description>Recent content in Categories on Andreis&#39; Library</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate>
+        <atom:link href="library.andreis.lv/categories/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Article</title>
+            <link>library.andreis.lv/categories/article/</link>
+            <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
+            
+            <guid>library.andreis.lv/categories/article/</guid>
+            <description></description>
+            <content type="html"><![CDATA[]]></content>
+        </item>
+        
+        <item>
+            <title>Cybersecurity</title>
+            <link>library.andreis.lv/categories/cybersecurity/</link>
+            <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
+            
+            <guid>library.andreis.lv/categories/cybersecurity/</guid>
+            <description></description>
+            <content type="html"><![CDATA[]]></content>
+        </item>
+        
+        <item>
+            <title>Policy</title>
+            <link>library.andreis.lv/categories/policy/</link>
+            <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+            
+            <guid>library.andreis.lv/categories/policy/</guid>
+            <description></description>
+            <content type="html"><![CDATA[]]></content>
+        </item>
+        
+    </channel>
+</rss>
