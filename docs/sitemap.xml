@@ -3,27 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://library.andreis.lv/</loc>
-    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://library.andreis.lv/categories/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://library.andreis.lv/tags/cybersecurity/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://library.andreis.lv/categories/cybersecurity/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://library.andreis.lv/categories/summary/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://library.andreis.lv/posts/2024/summary-post-quantum-key-exchange-new-hope/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://library.andreis.lv/tags/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://library.andreis.lv/categories/article/</loc>
     <lastmod>2022-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://library.andreis.lv/categories/</loc>
-    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://library.andreis.lv/tags/cybersecurity/</loc>
-    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://library.andreis.lv/categories/cybersecurity/</loc>
-    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://library.andreis.lv/posts/2022/04/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</loc>
+    <loc>https://library.andreis.lv/posts/2022/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</loc>
     <lastmod>2022-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://library.andreis.lv/tags/russia/</loc>
-    <lastmod>2022-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://library.andreis.lv/tags/</loc>
     <lastmod>2022-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://library.andreis.lv/categories/policy/</loc>
@@ -32,7 +38,7 @@
     <loc>https://library.andreis.lv/tags/privacy/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://library.andreis.lv/posts/2021/04/who-shall-own-my-data-data-autonomy/</loc>
+    <loc>https://library.andreis.lv/posts/2021/who-shall-own-my-data-data-autonomy/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
 </urlset>

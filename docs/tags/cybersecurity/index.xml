@@ -5,15 +5,44 @@
         <description>Recent content in Cybersecurity on Andreis&#39; Library</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://library.andreis.lv/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>Summary: Post-Quantum Key Exchange (New Hope)</title>
+            <link>https://library.andreis.lv/posts/2024/summary-post-quantum-key-exchange-new-hope/</link>
+            <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+            
+            <guid>https://library.andreis.lv/posts/2024/summary-post-quantum-key-exchange-new-hope/</guid>
+            <description>Andreis Gustavo Malta Purim¹
+¹ Institute of Computing, State University of Campinas in Campinas, São Paulo, Brazil. a213095@dac.unicamp.br
+http://web.eecs.umich.edu/~cpeikert/pubs/suite.pdf https://summerschool-croatia.cs.ru.nl/2018/slides/Introduction%20to%20post-quantum%20cryptography%20and%20learning%20with%20errors.pdf https://math.colorado.edu/~kstange/teaching-resources/crypto/RingLWE-notes.pdf https://asecuritysite.com/pqc/lwe_output https://eprint.iacr.org/2010/613.pdf https://eprint.iacr.org/2012/230.pdf https://eprint.iacr.org/2014/599.pdf https://security.googleblog.com/2016/07/experimenting-with-post-quantum.html https://asecuritysite.com/encryption/lwe3 https://asecuritysite.com/encryption/lwe2 https://asecuritysite.com/encryption/lwe https://github.com/scottwn/PyNewHope https://asecuritysite.com/pqc/newhope https://newhopecrypto.org/ https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/alkim</description>
+            <content type="html"><![CDATA[<p>Andreis Gustavo Malta Purim¹</p>
+<p>¹ Institute of Computing, State University of Campinas in Campinas, São Paulo, Brazil. <a href="mailto:a213095@dac.unicamp.br">a213095@dac.unicamp.br</a></p>
+<p><a href="http://web.eecs.umich.edu/~cpeikert/pubs/suite.pdf">http://web.eecs.umich.edu/~cpeikert/pubs/suite.pdf</a>
+<a href="https://summerschool-croatia.cs.ru.nl/2018/slides/Introduction%20to%20post-quantum%20cryptography%20and%20learning%20with%20errors.pdf">https://summerschool-croatia.cs.ru.nl/2018/slides/Introduction%20to%20post-quantum%20cryptography%20and%20learning%20with%20errors.pdf</a>
+<a href="https://math.colorado.edu/~kstange/teaching-resources/crypto/RingLWE-notes.pdf">https://math.colorado.edu/~kstange/teaching-resources/crypto/RingLWE-notes.pdf</a>
+<a href="https://asecuritysite.com/pqc/lwe_output">https://asecuritysite.com/pqc/lwe_output</a>
+<a href="https://eprint.iacr.org/2010/613.pdf">https://eprint.iacr.org/2010/613.pdf</a>
+<a href="https://eprint.iacr.org/2012/230.pdf">https://eprint.iacr.org/2012/230.pdf</a>
+<a href="https://eprint.iacr.org/2014/599.pdf">https://eprint.iacr.org/2014/599.pdf</a>
+<a href="https://security.googleblog.com/2016/07/experimenting-with-post-quantum.html">https://security.googleblog.com/2016/07/experimenting-with-post-quantum.html</a>
+<a href="https://asecuritysite.com/encryption/lwe3">https://asecuritysite.com/encryption/lwe3</a>
+<a href="https://asecuritysite.com/encryption/lwe2">https://asecuritysite.com/encryption/lwe2</a>
+<a href="https://asecuritysite.com/encryption/lwe">https://asecuritysite.com/encryption/lwe</a>
+<a href="https://github.com/scottwn/PyNewHope">https://github.com/scottwn/PyNewHope</a>
+<a href="https://asecuritysite.com/pqc/newhope">https://asecuritysite.com/pqc/newhope</a>
+<a href="https://newhopecrypto.org/">https://newhopecrypto.org/</a>
+<a href="https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/alkim">https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/alkim</a></p>
+]]></content>
+        </item>
+        
+        <item>
             <title>Reassessing Russian Cyberwarfare and Information Warfare (2007-2022)</title>
-            <link>https://library.andreis.lv/posts/2022/04/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</link>
+            <link>https://library.andreis.lv/posts/2022/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</link>
             <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
             
-            <guid>https://library.andreis.lv/posts/2022/04/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</guid>
+            <guid>https://library.andreis.lv/posts/2022/reassessing-russian-cyberwarfare-and-information-warfare-2007-2022/</guid>
             <description>Andreis Gustavo Malta Purim¹, Bohdanna Duma²
 ¹ Institute of Computing, State University of Campinas in Campinas, São Paulo, Brazil. a213095@dac.unicamp.br
 ² Institute of Humanities and Social Sciences, Lviv Polytechnic National University, Lviv, Ukraine. bohdanna.duma.mv.2019@lpnu.ua
