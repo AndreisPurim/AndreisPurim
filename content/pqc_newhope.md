@@ -15,7 +15,7 @@ Andreis Gustavo Malta Purim¹
 
 Also, be aware that this is the first time I add MathJax on my website. Since it's a recent addition, it might not be as stable as I'd like.
 
-**Disclaimer 2:** Sometimes, the page renders inline equations as block equations for reasons beyong our mortal understanding. _Refresh thy page if that is thy case._
+**Disclaimer 2:** Sometimes, the page renders inline equations as block equations for reasons beyond our mortal understanding. _Refresh thy page if that is thy case._
 
 # 1. Summary
 
