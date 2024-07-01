@@ -335,6 +335,10 @@ Then, a comparison in speed (cycles) between New Hope and BCNS:
 
 Finally, as a conclusion of the work, in July 7 2016, Google announces 2-year post-quantum experiment where NewHope+X25519 (CECPQ1) were implemented in BoringSSL for Chrome Canary - which was the connection used to access google services.
 
+![](/imgs/pqc_new_hope/figure22.png)
+**Figure 22.** Screenshot of Google Chrome Canary using NewHope [9].
+
+As for my personal conclusion, I must admit that New Hope was an interesting proposal not only for its design decisions and exceptional reproducibility  (unfortunately, not a lot of academics are serious about publishing their code and allowing others to easily replicate their results) but also because of the imense amount of knowledge it helps one acquires while studying it. As I mentioned earlier, I do plan on expanding on this material and helping other people learn about Post-Quantum Criptography.
 
 # 6. Sources and Additional Material
 
@@ -353,9 +357,11 @@ https://summerschool-croatia.cs.ru.nl/2018/slides/Introduction%20to%20post-quant
 
 [6] Chris Peikert. (2014). Lattice Cryptography for the Internet. https://eprint.iacr.org/2014/070
 
-[7] Bos, Costello, Naehrig, Stebila (2015). Post-quantum key exchange for the TLS protocol from the ring learning with errors problem.
+[7] Bos, Costello, Naehrig, Stebila (2015). Post-quantum key exchange for the TLS protocol from the ring learning with errors problem. https://ieeexplore.ieee.org/document/7163047
 
-[8] Alkim, Ducas, Poppelmann, & Schwabe (2016). Post-quantum Key Exchange—A New Hope.
+[8] Alkim, Ducas, Poppelmann, & Schwabe (2016). Post-quantum Key Exchange—A New Hope. https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/alkim
+
+[9] Google Security Blog. https://security.googleblog.com/2016/07/experimenting-with-post-quantum.html
 
 **My Google Slides Presentation:**
 
@@ -370,5 +376,4 @@ Link: https://docs.google.com/presentation/d/1VSCpnVRwjiTOwy40ch1YTON-VkPrGlg4mt
 - https://eprint.iacr.org/2010/613.pdf
 - https://eprint.iacr.org/2012/230.pdf
 - https://eprint.iacr.org/2014/599.pdf
-- 
 - https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/alkim
