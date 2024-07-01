@@ -17,9 +17,11 @@ Also, be aware that this is the first time I add MathJax on my website. Since it
 
 # 1. Summary
 
-This summary examines the New Hope proposal for Transport Layer Security (TLS), proposed by Erdem Alkim, Leo Ducas, Thomas Poppelmann, and Peter Schwabe at the USENIX Security Symposium 2016. New Hope was one of the Key Exchange Methods (KEM) proposals submitted to the NIST Post-Quantum Padronization competition. By implementing the Key Exchange, it would ensure that the TLS protocol was safe against quantum computers capable of breaking traditional assymetric encryption.
+This report examines the New Hope proposal for Transport Layer Security (TLS), proposed by Erdem Alkim, Leo Ducas, Thomas Poppelmann, and Peter Schwabe at the USENIX Security Symposium 2016. New Hope was one of the Key Exchange Methods (KEM) proposals submitted to the NIST Post-Quantum Padronization competition. By implementing the Key Exchange, it would ensure that the TLS protocol was safe against quantum computers capable of breaking traditional assymetric encryption.
 
 New Hope was based on the Ring Learning with Errors (Ring-LWE, or simply RLWE) primitive, which itself bases its security on the Lattice-based Short Vector Problem (SVP). By focusing on key optimization and security designs (reconciliation techniques, against all authority design, and others), it provided an optimized but secure way of users conecting to severs throught the internet without being at risk of quantum computers.
+
+Hopefully, by explaining how New Hope works, I'll also explain the basics of LWE and Post-Quantum Cryptography.
 
 The sections of this report will be as follows:
 
