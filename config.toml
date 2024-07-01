@@ -36,6 +36,8 @@ enableEmoji = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]']]
           inline = [['\(', '\)'], ['$$', '$$']]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 
 
