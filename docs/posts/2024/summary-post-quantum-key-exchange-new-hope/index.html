@@ -42,7 +42,7 @@ Disclaimer: This summary is my report for grad-level course MO421 (Cryptographic
 ¹ Institute of Computing, State University of Campinas in Campinas, São Paulo, Brazil. a213095@dac.unicamp.br
 Disclaimer: This summary is my report for grad-level course MO421 (Cryptographic Algorithms) at UNICAMP. The objective is to explain the New Hope Post-Quantum from a begginers perspective, without sacrificing the technical content. This report was submitted on 30/06/2024 but it may be edited to add more content or clarify some parts in the future."><meta itemprop="datePublished" content="2024-06-26T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2024-06-26T00:00:00+00:00" />
-<meta itemprop="wordCount" content="5693"><meta itemprop="image" content="https://library.andreis.lv/"/>
+<meta itemprop="wordCount" content="5696"><meta itemprop="image" content="https://library.andreis.lv/"/>
 <meta itemprop="keywords" content="Cybersecurity," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://library.andreis.lv/"/>
@@ -211,12 +211,7 @@ Disclaimer: This summary is my report for grad-level course MO421 (Cryptographic
 <p>Given a prime number $$p$$, a base $$g$$ (a primitive root modulo $$p$$), and a value $$h$$, find the exponent $$x$$ such that $$g^x ≡ h\ mod\ p$$.</p>
 </blockquote>
 <p>However, in 1994, Peter Shor published what is now known as Shor&rsquo;s algorithm, a groundbreaking quantum algorithm capable of efficiently factoring the prime factors of integers [1], which can be extended to finding solving the DLP. While the algorithm itself was slow on classical computers, by leveraging quantum quantum Fourier transforms, a quantum computer is capable of finding the solution in $$(\log N)^{2}(\log \log N)(\log \log \log N)$$ time. That is, a polynomial (and rather &ldquo;fast&rdquo;) time.</p>
-<p>While I do not have the time to fully explain Shor&rsquo;s algorithm, this video by <em>minutephyisics</em></p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/lvTqbM5Dq4Q" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
+<p>While I do not have the time to fully explain Shor&rsquo;s algorithm, I recommend this video by <em>minutephyisics:</em> <a href="https://www.youtube.com/watch?v=lvTqbM5Dq4Q">https://www.youtube.com/watch?v=lvTqbM5Dq4Q</a></p>
 <p>With Shor&rsquo;s algorithm, it is conceivable that in the coming years, as quantum computers become more stable and capable of handling more qubits, attackers could exploit them to compromise internet security. In fact, it is likely that malicious actors today are already storing encrypted data with the intention of decrypting it in the future when quantum computing resources become available.</p>
 <p>With the entirety of classical asymmetric cryptography in jeopardy, a new field has emerged: post-quantum cryptography. This field focuses on developing cryptographic algorithms that are resistant to both classical and quantum computers. Instead of relying on the hardness of problems like the discrete logarithm problem (DLP), which quantum computers can solve efficiently, post-quantum cryptography uses problems that, to our current knowledge, remain computationally difficult for both classical and quantum systems.</p>
 <p>One of these very hard mathematical problems is called the <em>Shortest Vector Problem</em> (SVP) in Lattice structures. In mathematics, a lattice refers to a regular arrangement of points in a multi-dimensional space, extending infinitely in all directions. Think of it as a grid that can be formed by combining integer multiples of a set of basis vectors. These basis vectors define the fundamental building blocks of the lattice.</p>

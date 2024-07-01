@@ -51,9 +51,7 @@ The Diffie-Hellman key exchange is secure under the assumption that the Discrete
 
 However, in 1994, Peter Shor published what is now known as Shor's algorithm, a groundbreaking quantum algorithm capable of efficiently factoring the prime factors of integers [1], which can be extended to finding solving the DLP. While the algorithm itself was slow on classical computers, by leveraging quantum quantum Fourier transforms, a quantum computer is capable of finding the solution in $$(\log N)^{2}(\log \log N)(\log \log \log N)$$ time. That is, a polynomial (and rather "fast") time.
 
-While I do not have the time to fully explain Shor's algorithm, this video by _minutephyisics_
-
-{{< youtube lvTqbM5Dq4Q >}}
+While I do not have the time to fully explain Shor's algorithm, I recommend this video by _minutephyisics:_ https://www.youtube.com/watch?v=lvTqbM5Dq4Q
 
 With Shor's algorithm, it is conceivable that in the coming years, as quantum computers become more stable and capable of handling more qubits, attackers could exploit them to compromise internet security. In fact, it is likely that malicious actors today are already storing encrypted data with the intention of decrypting it in the future when quantum computing resources become available.
 
