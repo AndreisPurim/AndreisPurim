@@ -15,6 +15,8 @@ Andreis Gustavo Malta Purim¹
 
 Also, be aware that this is the first time I add MathJax on my website. Since it's a recent addition, it might not be as stable as I'd like.
 
+**Disclaimer 2:** Sometimes, the page renders inline equations as block equations for reasons beyong our vain philosophy. Refresh thy page if that thy case.
+
 # 1. Summary
 
 This report examines the New Hope proposal for Transport Layer Security (TLS), proposed by Erdem Alkim, Leo Ducas, Thomas Poppelmann, and Peter Schwabe at the USENIX Security Symposium 2016. New Hope was one of the Key Exchange Methods (KEM) proposals submitted to the NIST Post-Quantum Padronization competition. By implementing the Key Exchange, it would ensure that the TLS protocol was safe against quantum computers capable of breaking traditional assymetric encryption.
