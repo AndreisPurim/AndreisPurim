@@ -1,7 +1,7 @@
 baseURL = "https://science.andreis.lv/"
 title   = "Andreis' Publications"
 languageCode = "en-us"
-publishDir = "docs"
+# publishDir = "docs"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
