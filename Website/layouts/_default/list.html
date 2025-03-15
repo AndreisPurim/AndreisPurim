@@ -23,25 +23,28 @@
     
     <main class="posts">
         {{ range $paginator.Pages.GroupByDate "2006" }}
-            <div class="posts-group">
-                <ul class="posts-list">
-                    {{ range .Pages }}
-                        <li class="post-item">
-                            <a href="{{.Permalink}}" class="post-item-inner">
-                                <span class="post-title">{{.Title}}</span>
-                                <span class="post-day">
-                                    {{ .Params.categories }}
-                                    <!-- {{ if .Site.Params.dateformShort }}
-                                        {{ .Date.Format .Site.Params.dateformShort }}
-                                    {{ else }}
-                                        {{ .Date.Format "Jan 2"}}
-                                    {{ end }} -->
-                                </span>
-                            </a>
-                        </li>
-                    {{ end }}
-                </ul>
-            </div>
+            
+                <div class="posts-group">
+                    <ul class="posts-list">
+                        {{ range .Pages }}
+                            {{ if not .Params.hidden }}
+                            <li class="post-item">
+                                <a href="{{.Permalink}}" class="post-item-inner">
+                                    <span class="post-title">{{.Title}}</span>
+                                    <span class="post-day">
+                                        {{ .Params.categories }}
+                                        <!-- {{ if .Site.Params.dateformShort }}
+                                            {{ .Date.Format .Site.Params.dateformShort }}
+                                        {{ else }}
+                                            {{ .Date.Format "Jan 2"}}
+                                        {{ end }} -->
+                                    </span>
+                                </a>
+                            </li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
         {{ end }}
         <!-- Not working? -->
         <div class="pagination">

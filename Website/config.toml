@@ -10,12 +10,11 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 # googleAnalytics = ""
 
-contentDir = "../Published"
 canonifyURLs = true
 enableEmoji = true
 
 [permalinks]
-  "/" = "/posts/:year/:slug/"
+  "/" = "/posts/:slug/"
 
 [author]
   name = "Andreis Purim"
@@ -27,7 +26,13 @@ enableEmoji = true
   tag      = "tags"
   category = "categories"
 
-
+[module]
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+  [[module.mounts]]
+    source = '../Published'
+    target = 'content'
 
 [markup]
   [markup.goldmark]
@@ -52,7 +57,7 @@ enableEmoji = true
   math = true
 
   # Metadata mostly used in document's head
-  description = "Andreis' publications"
+  description = "Andreis Purim"
   keywords = ""
   images = [""]
 
@@ -100,6 +105,6 @@ enableEmoji = true
 
 [menu]
   [[menu.main]]
-    identifier = "website"
-    name       = "Website"
-    url        = "https://andreis.lv"
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
