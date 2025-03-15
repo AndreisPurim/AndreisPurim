@@ -14,7 +14,7 @@ canonifyURLs = true
 enableEmoji = true
 
 [permalinks]
-  "/" = "/posts/:slug/"
+  "/" = "/:slug/"
 
 [author]
   name = "Andreis Purim"
