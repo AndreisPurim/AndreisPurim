@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package andreislab01;
+
+message FitRequest {
+    repeated float dataset = 1;
+    repeated int32 label = 2;
+    repeated int32 x_shape = 3;
+    repeated int32 y_shape = 4;
+}
+
+message FitResponse {
+    float accuracy = 1;
+}
+
+message PredictRequest {
+    repeated float input = 1;
+    repeated int32 shape = 2;
+}
+
+message PredictResponse {
+    repeated int32 label = 1;
+}
+
+service MLServer{
+    rpc ServerFit(FitRequest) returns (FitResponse) {}
+    rpc ServerPredict(PredictRequest) returns (PredictResponse) {}
+}
