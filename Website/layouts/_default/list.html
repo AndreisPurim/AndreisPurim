@@ -1,0 +1,71 @@
+{{ define "body" }}
+    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
+
+{{ define "main" }}
+    <main aria-role="main">
+        <div class="index-content framed">
+            <h1>{{ .Site.Title }}</h1>
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ range . -}}
+                        &nbsp; <a href="{{ .url }}" target="_blank" rel="me noopener {{ .rel }}" title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a> &nbsp;
+                    {{- end -}}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    <main class="posts">
+        {{ range $paginator.Pages.GroupByDate "2006" }}
+            
+                <div class="posts-group">
+                    <ul class="posts-list">
+                        {{ range .Pages }}
+                            {{ if not .Params.hidden }}
+                            <li class="post-item">
+                                <a href="{{.Permalink}}" class="post-item-inner">
+                                    <span class="post-title">{{.Title}}</span>
+                                    <span class="post-day">
+                                        {{ .Params.categories }}
+                                        <!-- {{ if .Site.Params.dateformShort }}
+                                            {{ .Date.Format .Site.Params.dateformShort }}
+                                        {{ else }}
+                                            {{ .Date.Format "Jan 2"}}
+                                        {{ end }} -->
+                                    </span>
+                                </a>
+                            </li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+        {{ end }}
+        <!-- Not working? -->
+        <div class="pagination">
+            <div class="pagination__buttons">
+                {{ if .Paginator.HasPrev }}
+                    <span class="button previous">
+                        <a href="{{ .Paginator.Prev.URL }}">
+                            <span class="button__icon">←</span>
+                            <span class="button__text">Newer posts</span>
+                        </a>
+                    </span>
+                {{ end }}
+                {{ if .Paginator.HasNext }}
+                    <span class="button next">
+                        <a href="{{ .Paginator.Next.URL }}">
+                            <span class="button__text">Older posts</span>
+                            <span class="button__icon">→</span>
+                        </a>
+                    </span>
+                {{ end }}
+            </div>
+        </div>        
+    </main>
+{{ end }}

@@ -1,0 +1,110 @@
+baseURL = "andreis.purim.lv"
+title   = "Andreis' Publications"
+languageCode = "en-us"
+# publishDir = "docs"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+# googleAnalytics = ""
+
+canonifyURLs = true
+enableEmoji = true
+
+[permalinks]
+  "/" = "/:slug/"
+
+[author]
+  name = "Andreis Purim"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[module]
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+  [[module.mounts]]
+    source = '../Published'
+    target = 'content'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]']]
+          inline = [['\(', '\)'], ['$$', '$$']]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  subtitle  = ""
+  math = true
+
+  # Metadata mostly used in document's head
+  description = "Andreis Purim"
+  keywords = ""
+  images = [""]
+
+  # Home subtitle of the index page.
+  homeSubtitle = """Welcome to my personal library, here I post every article I've written."""
+
+  # Enable theme toggle
+  enableThemeToggle = true
+
+  # link local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+  justifyContent = true
+
+  [params.footer]
+    rss = true
+    bottomText = [
+      "<a href=\"http://gohugo.io\">Hugo</a> template by <a href=\"https://github.com/rhazdon\">rhazdon</a>. Adapted by me."
+    ]
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoText = "> $ cd /a.purim/"
+    logoHomeLink = "/"
+    # logoCursorColor = "#67a2c9"
+    logoCursorPathname = true
+
+  # Social icons
+  # [[params.social]]
+  #   name = "google-scholar"
+  #   url  = "https://www.instagram.com/andreis.purim/"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:andreispurim@gmail.com"
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/andreispurim"
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/andreispurim/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"

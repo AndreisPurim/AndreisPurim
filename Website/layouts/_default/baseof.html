@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+    <head>{{ partial "head.html" . }}</head>
+    {{ block "body" . }}<body>{{ end }}
+        <div class="container">
+            {{ partial "header.html" . }}
+            <div class="content">{{ block "main" . }}{{ end }}</div>
+            <!-- Footer -->
+            {{ block "footer" . }}
+                <footer class="footer">
+                    {{if or (.Site.Params.footer.trademark) (.Site.Params.footer.author) (.Site.Params.footer.copyright) (.Site.Params.footer.rss) (.Site.Params.footer.topText) }}
+                        <div class="footer__inner">
+                            <div class="footer__content">
+                                {{ range .Site.Params.footer.topText }}<span>{{ . | safeHTML}}</span>{{ end }}
+                            </div>
+                        </div>
+                    {{ end }}
+                    {{with .Site.Params.footer.bottomText}}
+                        <div class="footer__inner">
+                            <div class="footer__content">
+                                {{ range . }}<span>{{ . | safeHTML}}</span>{{ end }}
+                            </div>
+                        </div>
+                    {{ end }}
+                </footer>
+            {{ end }}
+            <!-- /Footer -->
+        </div>
+        <!-- Scripts -->
+        {{ $main := resources.Get "js/main.js" }}
+        {{ $menu := resources.Get "js/menu.js" }}
+        {{ $prism := resources.Get "js/prism.js" }}
+        {{ $secureJS := slice $main $menu $prism | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+        <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+        <!-- /Scripts -->
+    </body>
+</html>

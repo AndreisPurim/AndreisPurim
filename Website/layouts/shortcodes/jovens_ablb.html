@@ -1,0 +1,47 @@
+<div id="jovens_ablb">  
+<h3 id="month-title"></h1>
+<div id="pairs"></div>
+
+<script>
+        const people = [
+            'Andreis', 'Marcela', 'Renan', 'Lidiane', 'Eunice', 'Giulia', 'Isabel K.', 'Steven', 'Sarah', 'Jeimis', 'Rebecca', 'Samuel F.',
+            'Isabel S.', 'Samuel S.', 'Roberta', 'Gustavo P.', 'Gustavo N.', 'Joyce', 'Stuart', 'Stephanie', 'Heron', 'Rafael P.', 'Julia', 'Tekla',
+        ];
+
+        const monthNamesPT = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+
+        function simpleShuffle(array, seed) {
+            let shuffled = array.slice();
+            let seedNum = seed.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = seedNum % (i + 1);
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                seedNum = (seedNum * 17 + 31) % 100000;
+            }
+            return shuffled;
+        }
+
+        function generatePairs() {
+            let now = new Date();
+            let monthSeed = `${now.getFullYear()}-${now.getMonth() + 1}`;
+            document.getElementById("month-title").innerText = `Duplas do Mês de ${monthNamesPT[now.getMonth()]}`;
+            
+            let shuffledPeople = simpleShuffle(people, monthSeed);
+            let pairsHTML = "";
+            
+            while (shuffledPeople.length > 1) {
+                let personA = shuffledPeople.pop();
+                let personB = shuffledPeople.pop();
+                pairsHTML += `<div class='pair'>${personA} - ${personB}</div>`;
+            }
+            
+            if (shuffledPeople.length === 1) {
+                pairsHTML += `<div class='solo'>${shuffledPeople.pop()} (sozinho)</div>`;
+            }
+            
+            document.getElementById("pairs").innerHTML = pairsHTML;
+        }
+
+        generatePairs();
+    </script>
+</div>
